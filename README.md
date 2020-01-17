@@ -42,6 +42,7 @@ EXECUTANDO O PROJETO
 		linha 114 => app_service.run(port=8000)
 
 TESTES UNITÁRIOS
+
 	Verifica o status de resposta do servidor
 	Verifica os valores limites do intervalo definido
 	Verifica valores fora do intervalo definido
