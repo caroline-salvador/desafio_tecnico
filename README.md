@@ -36,8 +36,8 @@ EXECUTANDO O PROJETO
 	1. Execute o projeto usando o seguinte comando: 
 		python app.py
 
-	2. O servidor estará disponível no seguinte endereço: 
-		http://127.0.0.1:8000/
+	2. O servidor estará disponível no endereço abaixo e o argumento "number" deve receber o valor inteiro: 
+		http://127.0.0.1:8000/?number=
 	
 	3. Se a porta 8000 não estiver disponível, altere no arquivo app.py
 		linha 114 => app_service.run(port=8000)
