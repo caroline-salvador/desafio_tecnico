@@ -22,6 +22,7 @@ class TestApp(unittest.TestCase):
 	
 	def test_translate(self):
 		self.assertEqual(translate("100"), "cem")
+		self.assertEqual(translate("102"), "cento e dois")
 		self.assertEqual(translate("1000"), "um mil")
 		self.assertEqual(translate("10000"), "dez mil")
 		self.assertEqual(translate("-100"), "menos cem")
