@@ -1,22 +1,26 @@
 DESAFIO TÉCNICO - INTRODUÇÃO
 O projeto foi desenvolvido em Python e contêm um servidor HTTP que, para cada requisiçãoGET, retorna um JSON cuja chave extenso é a versão por extenso do número inteiro enviado no path. Os números podem estar no intervalo [-99999, 99999].
 
-REQUISITOS 	
+REQUISITOS 
+
     Python 3.7
     Pip 19.3.1
     Virtualenv 16.7.9
     Flask 1.1.1
 
 INSTALANDO O PYTHON
+
 	Guias de instalação:
 		Windows: https://python.org.br/instalacao-windows/
 		Linux: https://python.org.br/instalacao-linux/
 		MAC OS: https://python.org.br/instalacao-mac/
 	
 DOWNLOAD DO CÓDIGO
+
      git clone https://github.com/caroline-salvador/desafio_tecnico.git
 
 AMBIENTE VIRTUAL
+
 	1. No terminal, navege até a pasta do projeto
 	2. Crie um ambiente virtual na pasta raiz do projeto executando o comando:
 		virtualenv venv
@@ -27,6 +31,7 @@ AMBIENTE VIRTUAL
 		pip install -r requirements.txt
 
 EXECUTANDO O PROJETO
+
 	1. Execute o projeto usando o seguinte comando: 
 		python app.py
 
