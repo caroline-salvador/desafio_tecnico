@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 
 app_service = Flask('app_service')
 
-# Quando nenhuma requisição é informada, o método GET é executado por default
+# Quando nenhuma requisição é informada, o método GET é executado - default
 @app_service.route('/')
 def index():
 	number = request.args.get('number')
